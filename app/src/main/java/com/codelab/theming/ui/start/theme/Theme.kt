@@ -4,6 +4,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import com.codelab.theming.ui.start.theme.JetnewsTypography
 import com.codelab.theming.ui.start.theme.Red700
 import com.codelab.theming.ui.start.theme.Red800
 import com.codelab.theming.ui.start.theme.Red900
@@ -22,6 +23,7 @@ private val LightColors = lightColors(
 fun JetnewsTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colors = LightColors,
+        typography = JetnewsTypography,
         content = content
     )
 }
